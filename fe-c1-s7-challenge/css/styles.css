@@ -1,0 +1,158 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #444;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  /* Home Section Styles */
+  .home-section {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .home-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  /* About Section Styles */
+  .about-section {
+    padding: 20px 0;
+  }
+  
+  .about-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .about-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Section Styles */
+  .contact-section {
+    padding: 20px 0;
+  }
+  
+  .contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-section form label,
+  .contact-section form input,
+  .contact-section form textarea,
+  .contact-section form input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .contact-section form input[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-media a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .social-media a:last-child {
+    margin-right: 0;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+  

@@ -1,0 +1,131 @@
+/* Write CSS code here */
+/* Step 1: Apply the global styles */
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    background-color: #047ade;
+    height: 100vh;
+    
+}
+
+
+p, li {
+    line-height: 1.6;
+}
+
+/* Step 2: Apply styles to the header */
+
+/* Apply styles to the header using class selector */
+
+.navbar {
+    background-color: #011a37;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: sans-serif;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.brand {
+    margin: 0;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+    padding: 5px 10px;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Apply styles to the Hero Unit/Primary Unit using class selector */
+
+.hero-section {
+    background-color: #047ade;
+    color: #fff;
+    padding: 50px 20px;
+    text-align:justify;
+    align-items: center;
+    
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 40px;
+    letter-spacing:normal;
+}
+.heading{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+/* Apply styles to the "Read More" link */
+
+.button{
+    background-color: #047ade;
+    border-color: #fff;
+    color: #fff;
+    background-origin: padding-box;
+    display: inline-block;
+   padding: 5px 5px;  
+   text-decoration: none;  
+   border-radius: 2px;
+}
+
+/* Apply styles to the box with white background */
+
+.box {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+    margin-top: 40px;
+    
+}
+.box ul{
+    list-style: none;
+    padding: 0;
+}
+
+.box li{
+    margin-bottom: 10px;
+}
+
+
+
+/* Apply styles using media queries */
+
+@media screen and (max-width: 480px) {
+    .hero-content {
+        grid-template-columns: 100%;
+    }
+}

@@ -1,0 +1,45 @@
+/* Write CSS code here */
+body{
+    background-color: #262626;
+}
+
+.container {
+    /* Optional: Set container styles */
+    display: flex;
+    justify-content: center;
+    /* Other container styles as needed */
+}
+
+.img-styled {
+    display: inline-block;
+    max-width: 100%; /* Ensure the image fits within its container */
+    max-height: 100%; /* Ensure the image fits within its container */
+    width: 250px;
+    height: 170px;
+    padding: 10px;
+}
+
+
+h1{
+    
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 10px;
+
+}
+h2{
+    color: whitesmoke;
+    font-family: serif;
+    padding-left: 10px;
+}
+p{
+    font-family: Fraunces;
+    color: yellowgreen;
+    padding-left: 10px;
+}
+.center{
+    text-align: center;
+}

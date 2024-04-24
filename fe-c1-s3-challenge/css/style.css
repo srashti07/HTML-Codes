@@ -1,0 +1,170 @@
+/* Write CSS code here */
+body{
+    width: 80%;
+    max-width: 900px;
+    font-family: Helvetica;
+    margin: 0 auto;
+    background-color: rgb(251, 247, 242);
+    border: 0px;
+    
+}
+
+.box-model {
+    display: inline-block;
+	border-radius: 5px;
+	padding: 5px 10px;
+	border: 4px solid black;
+	font: 700 15px/20px Caveat;
+    font-weight: bolder;
+    margin-left: 30%;
+    margin-top: auto;
+    margin-right: 80px;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+
+  }
+  
+.box{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(166, 31, 31, 0.681);
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-style: 600;
+    font-size: medium;
+    color: aliceblue; 
+    text-transform: uppercase;   
+}
+
+.heading{
+   
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0;
+   margin-bottom: 0;
+   width: 80%; 
+   padding: 10px;
+   font-family: Dosis;
+   color:rgba(0, 0, 0, 0.821);  
+   font-weight: bold;
+   text-align:center;
+   font-size: 2.5em;
+  
+      
+}
+.paragraph{
+    text-align: center;
+    margin-left: auto;
+    padding: 8px;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Bitter', serif;
+    color: rgba(0, 0, 0, 0.611);
+    font-style: BitterThin;
+    width: 360px; 
+    margin: auto; 
+    display: -webkit-box;
+    margin-bottom: 20px; 
+}
+.box-model2{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(166, 31, 31, 0.681);
+
+}
+hr{
+    width: 450px;
+    color: rgb(248, 248, 248);
+    size: 0px;
+}
+h2{
+    font-family: Dosis;
+    font-weight:1500;
+    color:rgba(0, 0, 0, 0.456);
+    text-transform: uppercase;
+    font-size: large;
+    margin-left: 29%;
+}
+.lang{
+    font-family: Dosis;
+    font-weight: 150;
+    color:gray;
+    list-style: none;
+
+}
+.heading2{
+    font-family: Dosis;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-decoration-color:(0, 0, 0, 0.686);
+    list-style: none;
+    text-transform: uppercase;
+    font-size: x-large;
+    margin-left: 26%;
+}
+p{
+    margin-left: 26%;
+    font-family: 'Bitter', serif;
+}
+ 
+.nav{
+    font-family: Dosis;
+    font-weight:600;
+    color:rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    text-decoration-color: rgba(0, 0, 0, 0.903);
+    list-style: none;
+    text-transform: uppercase;
+    font-size: large;
+    margin-left: 13%;
+}
+
+.footer{
+    font-family:Bitter;
+    font-weight: 150;
+    color:black;
+    text-decoration: none;
+    text-decoration-color: darkslategrey;
+}
+.custom-hr{
+    width: 460px;
+    color: rgb(248, 248, 248);
+    size: 0px;
+    margin-right: 26%;
+}
+.custom-hr1{
+    width: 450px;
+    color: rgb(248, 248, 248);
+    size: 0px;
+    margin-right: 22.5%;
+}
+.fa fa-pencil{
+    font-size:24px;
+    color: black;
+}
+.fa fa-camera{
+    font-size:24px;
+    color: black;
+}
+.fa fa-bulb{
+    font-size:24px;
+    color: black; 
+}
+.fa fa-user{
+    font-size:24px;
+    color: black;  
+}

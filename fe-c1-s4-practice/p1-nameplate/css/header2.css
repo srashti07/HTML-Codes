@@ -1,0 +1,65 @@
+/* Write CSS code here for nameplate-2 */
+/* Write CSS code here for nameplate-1 */
+/* Clearfix for handling float */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header-1 Styles */
+.header-2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.brand {
+    float: right; 
+    text-decoration: none;
+    margin-right: 8%;
+    list-style: none;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.menu {
+    float: left; 
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.button-container {
+    display: inline-block;
+    list-style: none; 
+}
+
+.button {
+    background-color:rgb(173, 226, 243);
+    color: #333;
+    padding: 6px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    list-style: none;
+}

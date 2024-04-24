@@ -1,0 +1,167 @@
+/* Write CSS code here */
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #26272b;
+}
+
+header img {
+    width: 50px;
+}
+
+header h3 {
+    color: whitesmoke;
+    margin-left: -20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: rgb(171, 171, 229);
+    text-decoration: underline;
+}
+
+/* Hero Unit Styles */
+.background-container {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.background-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-unit {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: whitesmoke;
+    padding: 100px 20px;
+}
+
+.hero-unit h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-unit h2 {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero-unit button {
+    background-color: #45484a;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-unit button:hover {
+    background-color: rgb(171, 171, 229);
+}
+
+/* Main Section Styles */
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px; /* Added padding to the main section */
+}
+
+.card {
+    text-align: center;
+    flex: 0 0 calc(33.333% - 20px);
+    margin-bottom: 20px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #444;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #26272b;
+    color: #737373;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+footer h4 {
+    color: wheat;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #072339;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-link {
+    color: #737373;
+    transition: color 0.3s;
+    display: flex;
+    flex-direction:column-reverse;
+
+}
+
+.social-link:hover {
+    color: #07193965;
+}

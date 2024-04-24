@@ -1,0 +1,66 @@
+/* Write CSS code here */
+header{
+    background-color: midnightblue;
+    font-weight: bold;
+    height: 70px;
+    margin: -16px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0%;
+    
+}
+header a{
+    color:lightgoldenrodyellow ;
+    padding-inline: 10px;
+    text-decoration: none;
+}
+
+logo{
+    margin-top: 15px;
+    display: inline-block;
+}
+    
+h1{
+    font-weight: bold;
+    color: darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+.image{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+        
+}
+figcaption{
+    font-size: 15px;
+    margin-left: 150px;
+}
+.social-icon {
+    width: 20px; 
+    height: 20px; 
+    padding-inline: 5px;
+    
+}
+footer a{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: purple;
+    padding-inline: 5px;
+}
+footer c{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding-inline: 5px;
+}
+.centered {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #171717;
+    font-size: 0.9em; 
+}
